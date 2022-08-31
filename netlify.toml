@@ -9,6 +9,11 @@
   from = "/*"
   to = "/:splat.html"
 
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
 [[headers]]
   for = "/*"
 
