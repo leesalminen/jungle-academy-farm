@@ -2,9 +2,6 @@
   base = "/"
   publish = "/"
 
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
-
 [[redirects]]
   from = "/*"
   to = "/:splat.html"
