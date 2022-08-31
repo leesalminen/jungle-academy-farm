@@ -3,13 +3,13 @@
   publish = "/"
 
 [[redirects]]
-  from = "/*"
-  to = "/:splat.html"
-
-[[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat.html"
 
 [[headers]]
   for = "/*"
